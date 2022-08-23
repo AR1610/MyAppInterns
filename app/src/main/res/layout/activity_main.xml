@@ -11,9 +11,9 @@
        android:id="@+id/img_data"
        android:layout_width="70dp"
        android:layout_height="70dp"
-       android:src="@drawable/home"
+       android:layout_centerHorizontal="true"
        android:layout_marginTop="30dp"
-       android:layout_centerHorizontal="true"/>
+       android:src="@drawable/home" />
 
    <TextView
        android:id="@+id/tv_login"
