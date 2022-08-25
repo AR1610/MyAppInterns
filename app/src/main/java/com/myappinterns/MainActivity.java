@@ -3,6 +3,7 @@ package com.myappinterns;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText edtUserName;
-    Button btnLogin;
+    Button btnLogin,btnUrlView;
     TextView tvLogin;
     ImageView imgLogo;
 
@@ -26,6 +27,20 @@ public class MainActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btn_login);
         tvLogin = findViewById(R.id.tv_login);
         imgLogo = findViewById(R.id.img_data);
+        btnUrlView = findViewById(R.id.btn_url_view);
+
+        btnUrlView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Implicit Intent
+                Intent i = new Intent();
+                i.setAction(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("https://www.google.com/"));
+                startActivity(i);
+                // over Implicit Intent
+
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

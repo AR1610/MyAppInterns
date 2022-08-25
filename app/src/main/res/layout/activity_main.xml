@@ -28,6 +28,7 @@
        android:textStyle="bold" />
 
    <RelativeLayout
+       android:id="@+id/inner_relative"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_below="@+id/tv_login"
@@ -108,5 +109,14 @@
 
    </RelativeLayout>
 
+   <Button
+       android:id="@+id/btn_url_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/inner_relative"
+       android:layout_marginTop="20dp"
+       android:text="URL View"
+       android:paddingHorizontal="40dp"/>
 </RelativeLayout>
 
