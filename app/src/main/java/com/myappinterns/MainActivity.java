@@ -2,6 +2,7 @@ package com.myappinterns;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
                 imgLogo.setImageResource(R.drawable.ic_user);
 
                 Toast.makeText(MainActivity.this, "Username is "+strUserName, Toast.LENGTH_SHORT).show();
+                // Explicit Intent
+                Intent i = new Intent(MainActivity.this,HomeActivity.class);
+                i.putExtra("KEY_USERNAME",strUserName);
+                startActivity(i);
+                // Over Explicit Intent
+
             }
         });
 
