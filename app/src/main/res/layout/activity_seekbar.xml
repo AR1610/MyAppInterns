@@ -39,5 +39,13 @@
         android:textSize="30sp"
         android:textColor="@color/teal_200"/>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="30sp"
+        android:text="Next"
+        android:textColor="@color/teal_200"/>
 </LinearLayout>

@@ -17,8 +17,8 @@ public class HomeActivity extends AppCompatActivity {
         tvUserName = findViewById(R.id.tv_userName);
 
         Intent i = getIntent(); // get intent
-        String strUser = i.getStringExtra("KEY_USERNAME");
+        String strUser = i.getStringExtra("KEY_SEEKBAR");
 
-        tvUserName.setText(strUser);
+        tvUserName.setText("Seekbar value is "+strUser);
     }
 }
