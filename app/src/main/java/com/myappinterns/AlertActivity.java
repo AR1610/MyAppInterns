@@ -5,17 +5,37 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class AlertActivity extends AppCompatActivity {
-    Button btnAlertDialog;
+    Button btnAlertDialog,btnCustomDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert);
         btnAlertDialog = findViewById(R.id.btn_alertDialog);
+        btnCustomDialog = findViewById(R.id.btn_cstm_dialog);
+
+        btnCustomDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                LayoutInflater layoutInflater = getLayoutInflater();
+                View my_view = layoutInflater.inflate(R.layout.raw_dialog,null);
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(AlertActivity.this);
+                builder.setView(my_view);
+                builder.show();
+
+
+
+            }
+        });
+
+
         btnAlertDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
