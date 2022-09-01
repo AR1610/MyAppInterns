@@ -4,6 +4,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,10 +28,23 @@ public class AlertActivity extends AppCompatActivity {
 
                 LayoutInflater layoutInflater = getLayoutInflater();
                 View my_view = layoutInflater.inflate(R.layout.raw_dialog,null);
-
                 AlertDialog.Builder builder = new AlertDialog.Builder(AlertActivity.this);
-                builder.setView(my_view);
-                builder.show();
+                AlertDialog alertDialog = builder.create();
+                alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                alertDialog.setView(my_view);
+                alertDialog.show();
+
+                Button btnContinue = my_view.findViewById(R.id.btn_continue);
+                btnContinue.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (alertDialog.isShowing()){
+                            alertDialog.dismiss();
+                        }
+                        Intent i = new Intent(AlertActivity.this,SeekbarActivity.class);
+                        startActivity(i);
+                    }
+                });
 
 
 
