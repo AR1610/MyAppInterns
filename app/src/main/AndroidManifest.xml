@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyAppInterns"
         tools:targetApi="31">
         <activity
+            android:name=".SimpleListViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".SpinnerActivity"
             android:exported="false" />
         <activity
