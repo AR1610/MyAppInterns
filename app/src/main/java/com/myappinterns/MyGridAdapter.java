@@ -10,16 +10,17 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MyBaseAdapter extends BaseAdapter {
+public class MyGridAdapter extends BaseAdapter {
+
 
     Context context;
     ArrayList<Bean> beanArrayList;
-    String data;
-    public MyBaseAdapter(Context context, ArrayList<Bean> beanArrayList, String data) {
+
+
+    public MyGridAdapter(Context context, ArrayList<Bean> beanArrayList) {
 
         this.context = context;
         this.beanArrayList = beanArrayList;
-        this.data  = data;
     }
 
     @Override
@@ -41,12 +42,7 @@ public class MyBaseAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        if (data.equals("LIST")){
-            view = layoutInflater.inflate(R.layout.raw_custom_list,null);
-
-        }else {
-            view = layoutInflater.inflate(R.layout.raw_custom_grid,null);
-        }
+        view = layoutInflater.inflate(R.layout.raw_custom_grid,null);
         ImageView imgData = view.findViewById(R.id.img_data);
         TextView tvData = view.findViewById(R.id.tv_data);
 
