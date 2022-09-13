@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        WebViewActivity.class);
+                        CustomListViewActivity.class);
                 startActivity(i);
                 finish();
 
