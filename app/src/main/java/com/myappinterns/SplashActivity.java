@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        CustomListViewActivity.class);
+                        FragmentLoadWithXmlActivity.class);
                 startActivity(i);
                 finish();
 

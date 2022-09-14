@@ -8,10 +8,12 @@
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/drawable/edt_bg.xml" value="0.147" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1305" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/drawable/ic_user.xml" value="0.147" />
+        <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_aactivity.xml" value="0.20087719298245615" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_alert.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_custom_grid_view.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_custom_list_view.xml" value="0.15368852459016394" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_date_time.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_fragment_load_with_xml.xml" value="0.20043859649122808" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_home.xml" value="0.15405405405405406" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_image_pick.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_linear_layout.xml" value="0.21981981981981982" />
@@ -22,6 +24,8 @@
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_spinner.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_splash.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/activity_web_view.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/fragment_a.xml" value="0.18859649122807018" />
+        <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/fragment_b.xml" value="0.20043859649122808" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/raw.xml" value="0.21125541125541125" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/raw_custom_grid.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Royal Legion 02/AndroidStudioProjects/MyAppInterns/app/src/main/res/layout/raw_custom_list.xml" value="0.2131578947368421" />

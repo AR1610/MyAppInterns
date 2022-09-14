@@ -16,6 +16,15 @@
         android:theme="@style/Theme.MyAppInterns"
         tools:targetApi="31">
         <activity
+            android:name=".FragmentLoadWithXmlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AActivity"
+            android:exported="false" />
+        <activity
             android:name=".CustomGridViewActivity"
             android:exported="false" />
         <activity
