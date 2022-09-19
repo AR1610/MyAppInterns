@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        FragmentLoadWithXmlActivity.class);
+                        TypesofMenuActivity.class);
                 startActivity(i);
                 finish();
 

@@ -6,14 +6,14 @@
     tools:context=".AFragment"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FDB0CB">
+    android:background="#FDB0CA">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="70sp"
-        android:textColor="#AE1247"
+        android:textColor="#E91E63"
         android:text="B"
         android:textStyle="bold"/>
 
