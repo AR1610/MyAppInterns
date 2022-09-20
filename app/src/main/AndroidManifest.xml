@@ -16,6 +16,11 @@
         android:theme="@style/Theme.MyAppInterns"
         tools:targetApi="31">
         <activity
+            android:name=".NavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.MyAppInterns.NoActionBar" />
+        <activity
             android:name=".BottomNavigationActivity"
             android:exported="false" />
         <activity

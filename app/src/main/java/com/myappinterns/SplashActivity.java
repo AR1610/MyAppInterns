@@ -15,6 +15,8 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        getSupportActionBar().hide();
+
         gifImageView = findViewById(R.id.img_gif);
         gifImageView.setGifImageResource(R.drawable.source);
         new Handler().postDelayed(new Runnable() {
@@ -22,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        BottomNavigationActivity.class);
+                        NavActivity.class);
                 startActivity(i);
                 finish();
 
