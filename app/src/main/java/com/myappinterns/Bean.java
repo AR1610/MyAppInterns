@@ -10,6 +10,10 @@ public class Bean {
         this.imgLang = imgLang;
     }
 
+    public Bean() {
+
+    }
+
     public String getStrLang() {
         return strLang;
     }

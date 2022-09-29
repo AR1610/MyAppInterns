@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.myappinterns.API.PostAPIActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     int time = 3000;
@@ -24,7 +26,8 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        NavActivity.class);
+                        PostAPIActivity.class);
+
                 startActivity(i);
                 finish();
 
