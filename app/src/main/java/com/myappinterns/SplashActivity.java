@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(SplashActivity.this,
-                        PostAPIActivity.class);
+                        MyServiceActivity.class);
 
                 startActivity(i);
                 finish();
